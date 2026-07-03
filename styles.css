@@ -118,3 +118,76 @@ main{
     margin: 10px;
     font-weight: Bold;
 }
+
+@media screen and (max-width: 768px) {
+
+    main{
+        margin-top: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .input_container{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .input_bar,
+    .search_city,
+    #unit_options{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .input_bar{
+        height: 45px;
+    }
+
+    .search_city,
+    #unit_options{
+        height: 42px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 320px;
+        margin: 2rem 0;
+        min-height: 350px;
+        padding: 20px;
+    }
+
+    .city_name{
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .emoji{
+        font-size: 70px;
+    }
+
+    .weather_type{
+        font-size: 1.2rem;
+    }
+
+    .temperature{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .description_container{
+        width: 100%;
+    }
+
+    .details{
+        margin: 12px 0;
+        text-align: center;
+    }
+
+    .prompt{
+        text-align: center;
+        font-size: 1.1rem;
+        padding: 20px;
+    }
+}
